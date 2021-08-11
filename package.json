@@ -1,0 +1,32 @@
+{
+  "name": "safe_bot",
+  "version": "1.0.0",
+  "description": "Safe bot securing group permissions",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hash-repo/safe_bot.git"
+  },
+  "keywords": [
+    "Safe",
+    "secure",
+    "tg",
+    "telegram",
+    "bot"
+  ],
+  "author": "MJurayev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hash-repo/safe_bot/issues"
+  },
+  "homepage": "https://github.com/hash-repo/safe_bot#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "telegraf": "^4.4.1"
+  }
+}
